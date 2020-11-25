@@ -1,7 +1,7 @@
 #! /usr/bin/python3
 
 ### Created by Shashi Prakash
-### github.com/sspeedy99
+### github.com/JP-droid449
 ### Date 02-June-2019
 
 import sched
@@ -17,7 +17,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.common.exceptions import WebDriverException as WebDriverException
 
 config = {
-    'chromedriver_path': "/home/sspeedy/whatsapp-web/chromedriver".format(os.environ['HOME']),
+    'chromedriver_path': "/home/JP-droid449/whatsapp-web/chromedriver".format(os.environ['HOME']),
     'get_msg_interval': 5,  # Time (seconds). Recommended value: 5
     'colors': True,  # True/False. True prints colorful msgs in console
     'ww_url': "https://web.whatsapp.com/"
